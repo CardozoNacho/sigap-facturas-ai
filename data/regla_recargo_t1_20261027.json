@@ -1,0 +1,32 @@
+{
+  "origen": "Regla de dominio del proyecto; ajustar a la normativa del despliegue.",
+  "tarifa": 1,
+  "entrada": "factpot",
+  "salida": "recfactpot",
+  "unidad_salida": "porcentaje entero",
+  "comparacion": "BigDecimal sobre el valor completo, sin redondear previamente",
+  "intervalos": [
+    {
+      "desde_inclusive": "0.88",
+      "hasta_exclusive": null,
+      "recargo": 0
+    },
+    {
+      "desde_inclusive": "0.80",
+      "hasta_exclusive": "0.88",
+      "recargo": 5
+    },
+    {
+      "desde_inclusive": "0.75",
+      "hasta_exclusive": "0.80",
+      "recargo": 10
+    },
+    {
+      "desde_inclusive": null,
+      "hasta_exclusive": "0.75",
+      "recargo": 20
+    }
+  ],
+  "factor_invalido_o_ausente": "No calcular; conservar para revision",
+  "alcance": "Validacion y alta del importador IA en SIGAP. No cambia las lecturas originales, las tarifas 2/3/4 ni el formulario manual."
+}

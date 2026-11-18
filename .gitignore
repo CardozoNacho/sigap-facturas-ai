@@ -1,0 +1,52 @@
+__pycache__/
+.venv*/
+output/
+work/
+tools/
+tmp/
+configuracion/*.local.json
+paquetes-offline/
+*.py[cod]
+
+# Datos de expedientes y archivos generados; no forman parte del codigo.
+/input/
+*.pdf
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.log
+*.log.*
+# Evidencias locales de una instalacion.
+/docs/evidencias-locales/
+
+# Credenciales y configuracion privada de cada instalacion.
+.env
+.env.*
+!.env.example
+!.env.template
+**/clave_api.txt
+**/lector-token.txt
+**/credenciales*.json
+**/credentials*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.dpapi
+
+# Instaladores, pesos y compilaciones locales.
+*.zip
+*.7z
+*.exe
+*.dll
+*.gguf
+*.safetensors
+*.onnx
+*.class
+*.jar
+*.war
+.idea/
+.vs/
+Thumbs.db
+Desktop.ini

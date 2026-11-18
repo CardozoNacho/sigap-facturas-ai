@@ -1,0 +1,8 @@
+# Mantener finales de linea estables entre instalaciones.
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Los lectores se identifican por SHA-256 en los lotes y pruebas historicas.
+# Conservar sus bytes, incluido BOM y finales de linea, sin normalizarlos.
+/lectores/general/*.ps1 -text

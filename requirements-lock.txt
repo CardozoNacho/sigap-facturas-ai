@@ -1,0 +1,4 @@
+# Versiones observadas en el entorno del proyecto el 29/10/2026.
+pdf2image==1.17.0
+Pillow==12.3.0
+pypdf==6.10.0

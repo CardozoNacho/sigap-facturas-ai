@@ -1,0 +1,3 @@
+pdf2image>=1.17,<2
+Pillow
+pypdf>=6.10,<7

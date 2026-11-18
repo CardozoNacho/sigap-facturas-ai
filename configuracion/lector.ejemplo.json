@@ -1,0 +1,7 @@
+{
+  "PythonExe": ".venv\\Scripts\\python.exe",
+  "PopplerBin": "C:\\Herramientas\\poppler\\Library\\bin",
+  "HostEscucha": "0.0.0.0",
+  "Puerto": 8765,
+  "EquiposPermitidos": "127.0.0.1"
+}
