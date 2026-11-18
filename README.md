@@ -60,6 +60,14 @@ La lectura por etapas está implementada en PowerShell y coordinada por Python. 
 - **Respetar cada documento:** pertenecer a un lote de alumbrado no implica necesariamente tarifa 4.
 - **Usar revisión humana:** un dato ilegible o un desacuerdo queda pendiente de revisión, sin asignarle un valor por defecto.
 
+## Demostración visual
+
+Seguimiento de resultados con la interfaz del proyecto y **datos sintéticos**, generado contra un servidor local simulado:
+
+![Seguimiento RCC con datos sintéticos](docs/assets/seguimiento-rcc.png)
+
+[Ver la interfaz completa](docs/assets/demo-rcc.png). La captura se puede reproducir con `experimentos/demo_publica/generar.py` tras instalar Playwright y Chromium. No corresponde a una cuenta ni a operaciones reales.
+
 ## Pruebas y resultados observados
 
 Una muestra dirigida de **ocho facturas de las cuatro tarifas** confirmó correctamente las ocho clasificaciones después de preservar el sector de tarifa y agregar una lectura específica. Incluyó dos errores previos y una T3 real dentro de un lote de alumbrado.
